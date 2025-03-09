@@ -1,0 +1,280 @@
+#topBtn {
+  display: none; /* Masquer le bouton par défaut */
+  position: fixed; /* Fixe le bouton à un endroit spécifique */
+  bottom: 20px; /* Positionne le bouton à 20px du bas de la fenêtre */
+  right: 30px; /* Positionne le bouton à 30px de la droite de la fenêtre */
+  z-index: 99; /* Assure que le bouton est au-dessus des autres éléments */
+  border: none; /* Supprime la bordure */
+  outline: none; /* Supprime le contour */
+  background-color: #007BFF; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  cursor: pointer; /* Curseur en forme de main */
+  padding: 15px; /* Espacement interne */
+  border-radius: 10px; /* Bords arrondis */
+  font-size: 18px; /* Taille de la police */
+}
+#topBtn:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+
+
+
+
+
+*{
+    font-weight:normal;
+    font-size:20px;
+    
+}
+strong {
+    font-weight: bold;
+  }
+
+nav {
+   
+    justify-content: space-between; 
+    padding: 10px; 
+    background-color:black;
+    text-align: center; 
+ overflow: hidden; 
+  position: sticky; 
+  top: 0; 
+  width: 100%; 
+  z-index: 100;
+
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 15px; 
+    color:blanchedalmond; 
+    float: left;
+    display: block; 
+    text-align: center;
+    padding: 14px 16px; 
+}
+
+nav a:hover {
+    background-color: #ddd;   
+    color: black;  
+}
+
+header {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 30px; 
+    background-color:#333; 
+}
+header .contact {
+    color:cornsilk; /
+
+}
+
+header .photo {
+    background-color: cornsilk; 
+    width: 300px;
+    height: 300px; 
+    overflow: hidden; 
+    border-radius: 200%; 
+}
+header .photo img {
+    max-width: 100%; 
+    height: auto; 
+    width: 100%;
+    object-fit: cover; 
+    object-position: top;  
+}
+h1{
+    text-align: Center; 
+    font-size: 50px; 
+}
+h2, h3, h4{
+    font-family: 'Open Sans', sans-serif; 
+    color:black; 
+    text-align: center; 
+}
+h2{
+        margin-bottom:50px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;  
+    background-color:bisque; 
+    color:black; 
+    text-align: justify;
+    margin-left:40px; 
+    margin-right:40px; 
+}
+
+/*pour les 2premières images */
+.container {
+    width: 100%; 
+    overflow: hidden;
+}
+.image-container {
+    width: 50%; 
+    box-sizing: border-box; 
+    float: left;
+    text-align: center;
+}
+
+img {
+    max-width: 100%; 
+    height: 400px;
+    object-fit: cover; 
+    display:inline-block; 
+    vertical-align: middle; 
+    height: 5px; 
+    background-color:black; 
+    border: none;
+}
+/*fin*/
+
+/*pour les images des livres */
+.containerp {
+    width: 100%; 
+    overflow: hidden;
+}
+
+.image-containerp {
+    width: 33.33%; 
+    box-sizing: border-box; 
+    float: left; 
+    padding: 20px;
+    text-align: center;
+    margin: 30px 0;
+}
+img {
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover; 
+    display:inline-block; 
+    vertical-align: middle; 
+}
+/*fin*/
+
+
+/*pour les images de la cuisine */
+.container1 {
+    width: 100%; 
+    overflow: hidden;
+}
+
+.image-container1 {
+    width: 50%; 
+    box-sizing: border-box; 
+    float: left; 
+    padding: 20px;
+    text-align: center;
+    margin: 30px 0;
+}
+img {
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover; 
+    display:inline-block; 
+    vertical-align: middle; 
+}
+
+/*fin*/
+
+
+video {
+    width: 95%;
+    height: 40%;
+  }
+  h5{
+    text-align: center;
+  }
+  .exemple_image_texte {
+    display: flex;
+    align-items: center;
+  }
+  
+  .exemple_texte{
+    width: 45%;
+    padding-right: 20px;
+    border: 3px solid black; 
+    padding: 20px; 
+    margin: 30px 0;
+  }
+  
+  .exemple_image {
+    width: 50%;
+  }
+  
+  .exemple_image img {
+    float: right;
+    margin: 0px 0px 15px 15px;
+  }
+
+/*code pour le PMPC*/
+  .exemple_image_texte_clinique {
+    display: flex;
+    align-items: center;
+  }
+  
+  .exemple_texte_clinique{
+    width: 50%;
+    padding-right: 20px;
+    border: 3px solid black; 
+    padding: 15px; 
+    margin: 30px 0;
+  }
+  
+  .exemple_image_clinique {
+    width: 50%;
+  }
+  
+  .exemple_image_clinique img {
+    float: right;
+    margin: 0px 0px 15px 15px;
+  }
+
+  /*code pour le cablage */
+  .exemple_image_texte_cable {
+    display: flex;
+    align-items: center;
+  }
+  
+  .exemple_texte_cable{
+    width: 70%;
+    padding-right: 20px;
+    border: 3px solid black; 
+    padding: 15px; 
+    margin: 30px 0;
+  }
+  
+  .exemple_image_cable {
+    width: 50%;
+  }
+  
+  .exemple_image_cable img {
+    float: right;
+    margin: 0px 0px 15px 15px;
+    width: 500px;
+  }
+
+
+  .contact-section {
+    margin: 50px;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.contact-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-item i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.contact-item span {
+    font-size: 16px;
+}

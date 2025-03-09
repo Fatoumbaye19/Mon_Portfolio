@@ -1,0 +1,24 @@
+table, th, td{
+    border: 1px solid;
+}
+table{
+    border-collapse: collapse;
+
+}
+.mam {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mam_texte {
+    margin-right: 20px; /* Ajustez la marge à droite du texte selon vos besoins */
+  }
+  
+  .mam_image {
+    max-width: 100px; 
+    margin-left: 20px; /* Ajustez la marge à gauche de l'image selon vos besoins */
+    height: auto; 
+  }
+  
+
+
